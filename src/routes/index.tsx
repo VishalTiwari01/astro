@@ -373,7 +373,7 @@ export default function Home() {
           </h2>
           <div className="grid md:grid-cols-3 gap-8 items-center">
             <ul className="space-y-3 flex flex-col items-end w-full">
-              {featuresLeft.map((f, i) => (
+              {featuresLeft.slice(0, 5).map((f, i) => (
                 <li
                   key={f}
                   className="group flex items-center justify-end gap-3 w-full bg-white/40 hover:bg-white px-4 py-2.5 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer border border-white/50 hover:border-[#1a3a6c]/20 transform hover:-translate-x-1"
@@ -403,7 +403,7 @@ export default function Home() {
               <MobileFeatureSlider />
             </div>
             <ul className="space-y-3 flex flex-col items-start w-full">
-              {featuresRight.map((f, i) => (
+              {featuresRight.slice(0, 5).map((f, i) => (
                 <li
                   key={f}
                   className="group flex items-center justify-start gap-3 w-full bg-white/40 hover:bg-white px-4 py-2.5 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer border border-white/50 hover:border-[#1a3a6c]/20 transform hover:translate-x-1"
@@ -431,12 +431,12 @@ export default function Home() {
             </ul>
           </div>
           <div className="text-center mt-10">
-            <a
-              href="#"
-              className="inline-block bg-[#1a3a6c] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#122a4f]"
+            <Link
+              to="/features"
+              className="inline-block bg-[#1a3a6c] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#122a4f] shadow-lg hover:shadow-xl transition-all hover:-translate-y-1"
             >
               23+ Features
-            </a>
+            </Link>
           </div>
         </div>
       </section>
@@ -553,7 +553,7 @@ export default function Home() {
       </section>
 
       {/* Scientific Evidences */}
-      <section className="py-14 bg-[#eef1f5]">
+      {/* <section className="py-14 bg-[#eef1f5]">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c]">
             Scientific Evidences
@@ -584,7 +584,7 @@ export default function Home() {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* FAQ */}
       <section className="py-14 bg-white">
