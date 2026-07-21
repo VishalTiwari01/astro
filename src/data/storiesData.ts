@@ -41,4 +41,32 @@ export const storiesData = [
     quote: "The best companion during the most beautiful phase of our lives.",
     videoId: "6MgQ1sZ_tlI",
   },
+  {
+    name: "Mr. & Mrs. Sharma",
+    city: "Mumbai",
+    rating: 5,
+    quote: "A beautiful and life-changing experience for our family.",
+    videoId: "vEltMP4qvhw",
+  },
+  {
+    name: "Mrs. Anjali Verma",
+    city: "Jaipur",
+    rating: 5,
+    quote: "The meditation sessions were extremely helpful and calming.",
+    videoId: "5YhDhV9Eq4M",
+  },
+  {
+    name: "Mr. & Mrs. Gupta",
+    city: "Lucknow",
+    rating: 5,
+    quote: "Felt a deep connection with our baby from day one.",
+    videoId: "Q8V0cuHGBx4",
+  },
+  {
+    name: "Mrs. Priya Singh",
+    city: "Chandigarh",
+    rating: 5,
+    quote: "The musical therapies completely transformed my pregnancy.",
+    videoId: "wGaFK-N_-eo",
+  },
 ];

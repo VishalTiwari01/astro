@@ -30,6 +30,7 @@ export default function StoriesSlider() {
   const sectionRef = useGsapReveal<HTMLElement>();
   const [activeVideo, setActiveVideo] = useState<string | null>(null);
   const closeBtnRef = useRef<HTMLButtonElement>(null);
+  const scrollRef = useRef<HTMLDivElement>(null);
   useLockBodyScroll(Boolean(activeVideo));
 
   useEffect(() => {
@@ -38,6 +39,22 @@ export default function StoriesSlider() {
     const closeOnEscape = (event: KeyboardEvent) => event.key === "Escape" && setActiveVideo(null);
     window.addEventListener("keydown", closeOnEscape);
     return () => window.removeEventListener("keydown", closeOnEscape);
+  }, [activeVideo]);
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      if (scrollRef.current && !activeVideo) {
+        const { scrollLeft, scrollWidth, clientWidth } = scrollRef.current;
+        // Scroll back to start if we reached the end
+        if (scrollLeft + clientWidth >= scrollWidth - 10) {
+          scrollRef.current.scrollTo({ left: 0, behavior: "smooth" });
+        } else {
+          // Approximate width of a card + gap
+          scrollRef.current.scrollBy({ left: 370, behavior: "smooth" });
+        }
+      }
+    }, 3000);
+    return () => clearInterval(interval);
   }, [activeVideo]);
 
   return (
@@ -64,13 +81,14 @@ export default function StoriesSlider() {
         </header>
 
         <div
-          className="stories-track mt-12 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-6 sm:grid sm:grid-cols-2 sm:overflow-visible sm:pb-0 lg:grid-cols-3"
+          ref={scrollRef}
+          className="stories-track mt-12 flex snap-x snap-mandatory gap-5 overflow-x-auto pb-6 scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:none] [scrollbar-width:none]"
           data-reveal
         >
           {storiesData.map((story, index) => (
             <article
               key={story.name}
-              className="story-card group min-w-[86%] snap-center overflow-hidden sm:min-w-0"
+              className="story-card group min-w-[85vw] snap-center overflow-hidden shrink-0 sm:min-w-[45vw] lg:min-w-[350px] max-w-[380px]"
             >
               <button
                 type="button"
