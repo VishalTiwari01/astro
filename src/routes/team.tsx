@@ -321,7 +321,7 @@ export default function TeamPage() {
         <img
           src="/images/team-banner.png"
           alt="Meet our team"
-          className="w-full"
+          className="w-full h-[300px] md:h-[450px] object-cover object-bottom"
         />
       </section>
 
