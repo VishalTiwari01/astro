@@ -8,11 +8,12 @@ import {
   FiShield,
   FiStar,
   FiThumbsUp,
+  FiUsers,
+  FiX,
+} from "react-icons/fi";
 import { storiesData } from "@/data/storiesData";
 import { useGsapReveal } from "@/hooks/useGsapReveal";
 import { useLockBodyScroll } from "@/hooks/useLockBodyScroll";
-
-const storyImages = [heroOne, heroTwo, storyThree];
 const benefits = [
   { icon: FiHeart, label: "Calmer journey" },
   { icon: FiShield, label: "Expert guidance" },
