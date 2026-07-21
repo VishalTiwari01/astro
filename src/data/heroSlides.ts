@@ -7,7 +7,7 @@ export const heroSlides = [
     description:
       "Multiplication of Virtues & Division of Defects is called 'Sanskar'. Experience the ancient Indian practice of Garbh Sanskar.",
     programs: ["Garbh Sanskar", "Yoga Session"],
-    image: "https://images.unsplash.com/photo-1515055813970-179c3dc3a0dc?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/hero/hero-1.png",
   },
   {
     eyebrow: "Healthy Pregnancy",
@@ -15,7 +15,7 @@ export const heroSlides = [
     description:
       "Bringing together modern science and ancient Indian wisdom to make pregnancy a positive, happy and healthy experience.",
     programs: ["Meditation", "Nutritionist Session"],
-    image: "https://images.unsplash.com/photo-1531983412531-1f49a365ffed?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/hero/hero-2.png",
   },
   {
     eyebrow: "Holistic Wellness",
@@ -23,7 +23,7 @@ export const heroSlides = [
     description:
       "Empower yourself with daily practices designed to reduce stress and promote a calm environment for you and your baby.",
     programs: ["Vaidic Mantra", "Yognidra"],
-    image: "https://images.unsplash.com/photo-1506126613408-eca07ce68773?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/hero/hero-3.png",
   },
   {
     eyebrow: "Joyful Journey",
@@ -31,6 +31,6 @@ export const heroSlides = [
     description:
       "Join thousands of mothers in celebrating a joyful pregnancy with expert guidance from our renowned team.",
     programs: ["Let's Smile Together", "Brainopedia"],
-    image: "https://images.unsplash.com/photo-1558280625-f7654b1f619e?auto=format&fit=crop&w=1000&q=80",
+    image: "/images/hero/hero-4.png",
   },
 ];
