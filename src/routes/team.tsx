@@ -177,7 +177,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
   const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="min-h-screen bg-white text-slate-800">
-      <div className="bg-[#1a3a6c] text-white text-sm">
+      <div className="hidden md:block bg-[#1a3a6c] text-white text-sm">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center flex-wrap gap-2">
           <div className="flex items-center gap-3">
             {["facebook", "insta", "youtube", "in", "pinterest"].map((s) => (
@@ -199,7 +199,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
       </div>
 
       <header className="bg-[#eef1f5]">
-        <div className="max-w-7xl mx-auto px-4 py-4 grid grid-cols-2 md:grid-cols-3 items-center gap-4">
+        <div className="hidden md:grid max-w-7xl mx-auto px-4 py-4 grid-cols-3 items-center gap-4">
           <div className="md:hidden flex justify-center col-span-2 order-1">
             <Link to="/">
               <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-20" />
@@ -251,15 +251,19 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
 
         <nav className="bg-white border-t border-b border-slate-200">
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between">
-            <button
-              className="md:hidden py-3 flex items-center justify-between gap-2 w-full text-left"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              <span className="font-bold text-[#1a3a6c] text-base tracking-wide">MENU</span>
-              <div className="p-1.5 bg-[#f7f5f0] rounded-md border border-slate-200">
-                <img src={`${BASE}/assets/img/hamburger.svg`} alt="menu" className="w-5 h-5" />
-              </div>
-            </button>
+            <div className="md:hidden flex items-center justify-between py-3 w-full">
+              <a href="/">
+                <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-12" />
+              </a>
+              <button
+                className="flex items-center gap-2"
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
+                <div className="p-1.5 bg-[#f7f5f0] rounded-md border border-slate-200">
+                  <img src={`${BASE}/assets/img/hamburger.svg`} alt="menu" className="w-5 h-5" />
+                </div>
+              </button>
+            </div>
             <ul
               className={`${menuOpen ? "flex" : "hidden"} md:flex flex-col md:flex-row gap-1 md:gap-2 w-full md:w-auto py-2 md:py-0`}
             >

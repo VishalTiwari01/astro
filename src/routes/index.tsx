@@ -292,7 +292,7 @@ export default function Home() {
       </section> */}
 
       {/* About Us */}
-      {/* <section className="py-14 bg-[#f7f5f0]">
+       <section className="py-14 bg-[#f7f5f0]">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-2">
             About Us <span className="text-slate-500 font-light">Garbh Sanskar</span>
@@ -333,7 +333,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-      </section> */}
+      </section> 
 
       {/* Team */}
       <section className="py-14 bg-white">
