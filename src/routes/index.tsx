@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { useState } from "react";
 import HeroSlider from "@/components/HeroSlider";
 import StoriesSlider from "@/components/StoriesSlider";
+import MobileFeatureSlider from "@/components/MobileFeatureSlider";
 const BASE = "https://www.krishnacoming.com";
 
 const navItems = [
@@ -187,7 +188,7 @@ export default function Home() {
           </div>
           <div className="flex justify-center">
             <Link to="/">
-              <img src={"/images/logo.png"} alt="Krishna Coming" className="h-24" />
+              <img src={"/images/logo.png"} alt="Astro Baby" className="h-28 -p-8" />
             </Link>
           </div>
           <div className="flex flex-col items-end">
@@ -379,11 +380,7 @@ export default function Home() {
               ))}
             </ul>
             <div className="flex justify-center">
-              <img
-                src={`${BASE}/assets/img/kc-features.jpg`}
-                alt="features"
-                className="w-full max-w-xs rounded-xl shadow-lg"
-              />
+              <MobileFeatureSlider />
             </div>
             <ul className="space-y-2 text-left text-slate-700">
               {featuresRight.map((f) => (
