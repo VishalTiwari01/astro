@@ -280,7 +280,7 @@ const stories: Story[] = [
 function Layout({ children, activeLabel }: { children: React.ReactNode; activeLabel: string }) {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="min-h-screen bg-white text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-[#f8f9fc] via-white to-[#f4f7fb] text-slate-800">
       <div className="hidden md:block bg-[#1a3a6c] text-white text-sm">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center flex-wrap gap-2">
           <div className="flex items-center gap-3">
@@ -302,7 +302,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
         </div>
       </div>
 
-      <header className="bg-[#eef1f5]">
+      <header className="bg-transparent border-b border-slate-200/50">
         <div className="hidden md:grid max-w-7xl mx-auto px-4 py-4 grid-cols-3 items-center gap-4">
           <div className="md:hidden flex justify-center col-span-2 order-1">
             <Link to="/">
@@ -353,7 +353,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
           </div>
         </div>
 
-        <nav className="bg-white border-t border-b border-slate-200">
+        <nav className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200/50 shadow-sm">
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-center">
             <div className="md:hidden flex items-center justify-between py-3 w-full">
               <Link to="/">
@@ -421,7 +421,7 @@ export default function TestimonialPage() {
   return (
     <Layout activeLabel="User Stories">
       {/* Banner */}
-      <section className="bg-[#eef1f5] py-10 border-b border-slate-200">
+      <section className="py-10 border-b border-slate-200/50 relative z-10">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-5xl font-semibold text-[#1a3a6c]">User Stories</h1>
           <p className="mt-3 text-slate-600 text-sm md:text-base">
@@ -434,7 +434,7 @@ export default function TestimonialPage() {
       </section>
 
       {/* Hero collage */}
-      <section className="py-10 bg-white">
+      <section className="py-10 relative z-10">
         <div className="max-w-7xl mx-auto px-4">
           <a
             href="https://www.youtube.com/watch?v=428EL1HqYRs"
@@ -466,7 +466,7 @@ export default function TestimonialPage() {
       </section>
 
       {/* Title */}
-      <section className="py-6 bg-[#f7f5f0]">
+      <section className="py-6 relative z-10">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-4xl font-semibold text-[#1a3a6c]">User Stories</h2>
           <p className="mt-2 text-slate-600">
@@ -476,7 +476,7 @@ export default function TestimonialPage() {
       </section>
 
       {/* Stories grid */}
-      <section className="py-10 bg-[#f7f5f0]">
+      <section className="py-10 relative z-10">
         <div className="max-w-7xl mx-auto px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           {stories.map((s, i) => (
             <a
@@ -512,7 +512,7 @@ export default function TestimonialPage() {
       </section>
 
       {/* Newsletter */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-4xl mx-auto px-4 grid md:grid-cols-2 gap-8 items-center">
           <img src={`${BASE}/assets/img/baby.png`} alt="baby" className="w-full max-w-xs mx-auto" />
           <div>

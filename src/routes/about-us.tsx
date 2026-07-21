@@ -92,7 +92,7 @@ export default function AboutPage() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   return (
-    <div className="min-h-screen bg-white text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-[#f8f9fc] via-white to-[#f4f7fb] text-slate-800">
       {/* Top bar */}
       <div className="hidden md:block bg-[#1a3a6c] text-white text-sm">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center flex-wrap gap-2">
@@ -116,7 +116,7 @@ export default function AboutPage() {
       </div>
 
       {/* Header */}
-      <header className="bg-[#eef1f5]">
+      <header className="bg-transparent border-b border-slate-200/50">
         <div className="hidden md:grid max-w-7xl mx-auto px-4 py-4 grid-cols-3 items-center gap-4">
           <div className="flex items-center gap-3">
             <img src={`${BASE}/assets/img/call.svg`} alt="call" className="w-10 h-10" />
@@ -151,7 +151,7 @@ export default function AboutPage() {
         </div>
 
         {/* Nav */}
-        <nav className="bg-white border-t border-b border-slate-200">
+        <nav className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200/50 shadow-sm">
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-center">
             <div className="md:hidden flex items-center justify-between py-3 w-full">
               <Link to="/">
@@ -197,7 +197,7 @@ export default function AboutPage() {
       </header>
 
       {/* Page title banner */}
-      <section className="bg-[#eef1f5] py-10 border-b border-slate-200">
+      <section className="py-10 border-b border-slate-200/50 relative z-10">
         <div className="max-w-7xl mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-5xl font-semibold text-[#1a3a6c]">About Us</h1>
           <p className="mt-3 text-slate-600 text-sm md:text-base">
@@ -210,7 +210,7 @@ export default function AboutPage() {
       </section>
 
       {/* What is Garbh Sanskar */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <img
             src="/images/team.png"
@@ -239,7 +239,7 @@ export default function AboutPage() {
       </section>
 
       {/* What is Krishna Coming */}
-      <section className="py-14 bg-[#f7f5f0]">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-4">
@@ -267,7 +267,7 @@ export default function AboutPage() {
       </section>
 
       {/* Mission */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-2">
             Our Mission
@@ -293,7 +293,7 @@ export default function AboutPage() {
       </section>
 
       {/* Vision */}
-      <section className="py-14 bg-[#f7f5f0]">
+      <section className="py-14 relative z-10">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-4">Our Vision</h2>
           <p className="text-lg text-slate-700 leading-relaxed italic">
@@ -307,7 +307,7 @@ export default function AboutPage() {
       </section>
 
       {/* Our Team */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <img
             src="/images/team.png"
@@ -335,7 +335,7 @@ export default function AboutPage() {
       </section>
 
       {/* Journey / Milestones */}
-      <section className="py-14 bg-[#eef1f5]">
+      <section className="py-14 relative z-10">
         <div className="max-w-5xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-10">
             Our Journey
@@ -368,7 +368,7 @@ export default function AboutPage() {
       </section>
 
       {/* Awards */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-10">
             Awards & Accolades
@@ -401,7 +401,7 @@ export default function AboutPage() {
       </section>
 
       {/* Stats */}
-      <section className="py-14 bg-[#f7f5f0]">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-2xl md:text-4xl font-semibold text-[#1a3a6c] mb-10">
             A Glimpse of <span className="text-red-600">Positive motherhood</span> and happier
