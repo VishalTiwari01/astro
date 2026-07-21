@@ -144,7 +144,7 @@ export default function Home() {
   const [openFaq, setOpenFaq] = useState<number | null>(0);
 
   return (
-    <div className="min-h-screen bg-white text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-[#f8f9fc] via-white to-[#f4f7fb] text-slate-800">
       {/* Top bar */}
       <div className="hidden md:block bg-[#1a3a6c] text-white text-sm">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center flex-wrap gap-2">
@@ -168,7 +168,7 @@ export default function Home() {
       </div>
 
       {/* Header */}
-      <header className="bg-[#eef1f5]">
+      <header className="bg-transparent border-b border-slate-200/50">
         <div className="hidden md:grid max-w-7xl mx-auto px-4 py-4 grid-cols-3 items-center gap-4">
           <div className="flex items-center gap-3">
             <img
@@ -214,7 +214,7 @@ export default function Home() {
           </div>
         </div>
 
-        <nav className="bg-white border-t border-b border-slate-200">
+        <nav className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200/50 shadow-sm">
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-center">
             <div className="md:hidden flex items-center justify-between py-3 w-full">
               <Link to="/">
@@ -294,7 +294,7 @@ export default function Home() {
       </section> */}
 
       {/* About Us */}
-       <section className="py-14 bg-[#f7f5f0]">
+       <section className="py-14">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-2">
             About Us <span className="text-slate-500 font-light">Garbh Sanskar</span>
@@ -338,7 +338,7 @@ export default function Home() {
       </section> 
 
       {/* Team */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <img
             src="/images/team.png"
@@ -366,7 +366,7 @@ export default function Home() {
       </section>
 
       {/* Features */}
-      <section className="py-14 bg-[#eef1f5]">
+      <section className="py-14">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-10">
             Features
@@ -445,7 +445,7 @@ export default function Home() {
       <StoriesSlider />
 
       {/* Awards */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-10">
             Awards & Accolades
@@ -480,7 +480,7 @@ export default function Home() {
       </section>
 
       {/* User Stories */}
-      {/* <section className="py-14 bg-[#f7f5f0]">
+      {/* <section className="py-14">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c]">
             User Stories
@@ -530,7 +530,7 @@ export default function Home() {
       </section> */}
 
       {/* Stats */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-2xl md:text-4xl font-semibold text-[#1a3a6c] mb-10">
             A Glimpse of <span className="text-red-600">Positive motherhood</span> and happier
@@ -587,7 +587,7 @@ export default function Home() {
       </section> */}
 
       {/* FAQ */}
-      <section className="py-14 bg-white">
+      <section className="py-14 relative z-10">
         <div className="max-w-4xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-10">
             Frequently Asked Questions (FAQs)
