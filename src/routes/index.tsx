@@ -371,21 +371,61 @@ export default function Home() {
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-10">
             Features
           </h2>
-          <div className="grid md:grid-cols-3 gap-6 items-center">
-            <ul className="space-y-2 text-right text-slate-700">
-              {featuresLeft.map((f) => (
-                <li key={f} className="py-1">
-                  {f} <span className="text-[#1a3a6c]">●</span>
+          <div className="grid md:grid-cols-3 gap-8 items-center">
+            <ul className="space-y-3 flex flex-col items-end w-full">
+              {featuresLeft.map((f, i) => (
+                <li
+                  key={f}
+                  className="group flex items-center justify-end gap-3 w-full bg-white/40 hover:bg-white px-4 py-2.5 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer border border-white/50 hover:border-[#1a3a6c]/20 transform hover:-translate-x-1"
+                >
+                  <span className="font-medium text-sm md:text-base text-slate-700 group-hover:text-[#1a3a6c] transition-colors text-right leading-tight">
+                    {f}
+                  </span>
+                  <div className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white group-hover:bg-gradient-to-br from-[#1a3a6c] to-[#2a5a9c] flex items-center justify-center flex-shrink-0 transition-all duration-300 shadow-sm group-hover:shadow-md">
+                    <svg
+                      className="w-3.5 h-3.5 md:w-4 md:h-4 text-[#1a3a6c] group-hover:text-white transition-colors"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={3}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  </div>
                 </li>
               ))}
             </ul>
             <div className="flex justify-center">
               <MobileFeatureSlider />
             </div>
-            <ul className="space-y-2 text-left text-slate-700">
-              {featuresRight.map((f) => (
-                <li key={f} className="py-1">
-                  <span className="text-[#1a3a6c]">●</span> {f}
+            <ul className="space-y-3 flex flex-col items-start w-full">
+              {featuresRight.map((f, i) => (
+                <li
+                  key={f}
+                  className="group flex items-center justify-start gap-3 w-full bg-white/40 hover:bg-white px-4 py-2.5 rounded-2xl shadow-sm hover:shadow-md transition-all duration-300 cursor-pointer border border-white/50 hover:border-[#1a3a6c]/20 transform hover:translate-x-1"
+                >
+                  <div className="w-7 h-7 md:w-8 md:h-8 rounded-full bg-white group-hover:bg-gradient-to-br from-[#1a3a6c] to-[#2a5a9c] flex items-center justify-center flex-shrink-0 transition-all duration-300 shadow-sm group-hover:shadow-md">
+                    <svg
+                      className="w-3.5 h-3.5 md:w-4 md:h-4 text-[#1a3a6c] group-hover:text-white transition-colors"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      stroke="currentColor"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        strokeWidth={3}
+                        d="M5 13l4 4L19 7"
+                      />
+                    </svg>
+                  </div>
+                  <span className="font-medium text-sm md:text-base text-slate-700 group-hover:text-[#1a3a6c] transition-colors text-left leading-tight">
+                    {f}
+                  </span>
                 </li>
               ))}
             </ul>
