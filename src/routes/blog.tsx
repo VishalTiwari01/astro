@@ -48,7 +48,7 @@ export function Layout({
         <div className="hidden md:grid max-w-7xl mx-auto px-4 py-4 grid-cols-3 items-center gap-4">
           <div className="md:hidden flex justify-center col-span-2 order-1">
             <Link to="/">
-              <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-20" />
+              <img src={"/images/logo.png"} alt="Krishna Coming" className="h-20" />
             </Link>
           </div>
           <div className="flex items-center gap-2 md:gap-3 order-2 md:order-1">
@@ -69,7 +69,7 @@ export function Layout({
           </div>
           <div className="hidden md:flex justify-center order-none md:order-2">
             <Link to="/">
-              <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-24" />
+              <img src={"/images/logo.png"} alt="Krishna Coming" className="h-24" />
             </Link>
           </div>
           <div className="flex flex-col items-end order-3">
@@ -99,7 +99,7 @@ export function Layout({
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-center">
             <div className="md:hidden flex items-center justify-between py-3 w-full">
               <Link to="/">
-                <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-12" />
+                <img src={"/images/logo.png"} alt="Krishna Coming" className="h-12" />
               </Link>
               <button
                 className="flex items-center gap-2"
