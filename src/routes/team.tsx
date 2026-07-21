@@ -176,7 +176,7 @@ const members: Member[] = [
 function Layout({ children, activeLabel }: { children: React.ReactNode; activeLabel: string }) {
   const [menuOpen, setMenuOpen] = useState(false);
   return (
-    <div className="min-h-screen bg-white text-slate-800">
+    <div className="min-h-screen bg-gradient-to-b from-[#f8f9fc] via-white to-[#f4f7fb] text-slate-800">
       <div className="hidden md:block bg-[#1a3a6c] text-white text-sm">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center flex-wrap gap-2">
           <div className="flex items-center gap-3">
@@ -198,7 +198,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
         </div>
       </div>
 
-      <header className="bg-[#eef1f5]">
+      <header className="bg-transparent border-b border-slate-200/50">
         <div className="hidden md:grid max-w-7xl mx-auto px-4 py-4 grid-cols-3 items-center gap-4">
           <div className="md:hidden flex justify-center col-span-2 order-1">
             <Link to="/">
@@ -249,7 +249,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
           </div>
         </div>
 
-        <nav className="bg-white border-t border-b border-slate-200">
+        <nav className="bg-white/80 backdrop-blur-md sticky top-0 z-50 border-b border-slate-200/50 shadow-sm">
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-center">
             <div className="md:hidden flex items-center justify-between py-3 w-full">
               <Link to="/">
@@ -317,16 +317,16 @@ export default function TeamPage() {
   return (
     <Layout activeLabel="Team">
       {/* Banner */}
-      <section className="bg-[#eef1f5]">
+      <section className="border-b border-slate-200/50 relative z-10">
         <img
-          src={`${BASE}/assets/img/team/team-banner-en.png`}
+          src="/images/team-banner.png"
           alt="Meet our team"
           className="w-full"
         />
       </section>
 
       {/* Title */}
-      <section className="py-12 bg-white">
+      <section className="py-12 relative z-10">
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h1 className="text-3xl md:text-5xl font-semibold text-[#1a3a6c]">
             Meet Our Team — <span className="text-red-600">The Garbh Sanskar Experts</span>
@@ -340,7 +340,7 @@ export default function TeamPage() {
       </section>
 
       {/* Members */}
-      <section className="py-8 bg-[#f7f5f0]">
+      <section className="py-8 relative z-10">
         <div className="max-w-7xl mx-auto px-4 space-y-8">
           {members.map((m, i) => (
             <article
