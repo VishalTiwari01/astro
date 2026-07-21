@@ -153,9 +153,9 @@ export default function AboutPage() {
         <nav className="bg-white border-t border-b border-slate-200">
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="md:hidden flex items-center justify-between py-3 w-full">
-              <a href="/">
+              <Link to="/">
                 <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-12" />
-              </a>
+              </Link>
               <button
                 className="flex items-center gap-2"
                 onClick={() => setMenuOpen(!menuOpen)}

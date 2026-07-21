@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { useState } from "react";
 import HeroSlider from "@/components/HeroSlider";
 import StoriesSlider from "@/components/StoriesSlider";
@@ -185,9 +186,9 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center">
-            <a href="/">
+            <Link to="/">
               <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-24" />
-            </a>
+            </Link>
           </div>
           <div className="flex flex-col items-end">
             <div className="text-[#1a3a6c] font-semibold text-sm mb-1 uppercase tracking-wider">
@@ -215,9 +216,9 @@ export default function Home() {
         <nav className="bg-white border-t border-b border-slate-200">
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between">
             <div className="md:hidden flex items-center justify-between py-3 w-full">
-              <a href="/">
+              <Link to="/">
                 <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-12" />
-              </a>
+              </Link>
               <button
                 className="flex items-center gap-2"
                 onClick={() => setMenuOpen(!menuOpen)}
@@ -234,8 +235,8 @@ export default function Home() {
             >
               {navItems.map((item, i) => (
                 <li key={item}>
-                  <a
-                    href={
+                  <Link
+                    to={
                       item === "About Us"
                         ? "/about-us"
                         : item === "Courses & Features"
@@ -255,7 +256,7 @@ export default function Home() {
                     }`}
                   >
                     {item}
-                  </a>
+                  </Link>
                 </li>
               ))}
               <li>
@@ -442,7 +443,7 @@ export default function Home() {
       </section>
 
       {/* User Stories */}
-      <section className="py-14 bg-[#f7f5f0]">
+      {/* <section className="py-14 bg-[#f7f5f0]">
         <div className="max-w-7xl mx-auto px-4">
           <h2 className="text-center text-3xl md:text-4xl font-semibold text-[#1a3a6c]">
             User Stories
@@ -489,7 +490,7 @@ export default function Home() {
             </a>
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Stats */}
       <section className="py-14 bg-white">
@@ -570,14 +571,7 @@ export default function Home() {
               </div>
             ))}
           </div>
-          <div className="text-center mt-8">
-            <a
-              href="#"
-              className="inline-block bg-[#1a3a6c] text-white font-semibold px-8 py-3 rounded-full hover:bg-[#122a4f]"
-            >
-              SEE MORE
-            </a>
-          </div>
+          
         </div>
       </section>
 

@@ -136,7 +136,7 @@ export default function StoriesSlider() {
                   </div>
                 </div>
                 <p className="mt-5 min-h-20 text-sm leading-7 text-slate-700">“{story.quote}”</p>
-                <div className="mt-5 grid grid-cols-3 border-t border-slate-200 pt-5">
+                {/* <div className="mt-5 grid grid-cols-3 border-t border-slate-200 pt-5">
                   {benefits.map(({ icon: Icon, label }) => (
                     <div key={label} className="flex flex-col items-center gap-2 px-1 text-center">
                       <span className="grid h-8 w-8 place-items-center rounded-full bg-slate-100 text-[#1a3a6c]">
@@ -147,7 +147,7 @@ export default function StoriesSlider() {
                       </span>
                     </div>
                   ))}
-                </div>
+                </div> */}
               </div>
             </article>
           ))}
