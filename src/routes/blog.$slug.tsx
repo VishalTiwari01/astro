@@ -158,7 +158,7 @@ export default function BlogDetailPage() {
               type="email"
               required
               placeholder="Enter your email"
-              className="flex-1 px-4 py-3 rounded-full text-slate-800 outline-none"
+              className="flex-1 px-4 py-3 rounded-full text-slate-800 outline-none bg-white focus:outline-none focus:ring-2 focus:ring-red-500"
             />
             <button className="px-6 py-3 rounded-full bg-red-600 hover:bg-red-700 font-semibold">
               Subscribe

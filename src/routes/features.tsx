@@ -438,7 +438,7 @@ export default function FeaturesPage() {
               <input
                 type="email"
                 placeholder="Your Email"
-                className="flex-1 px-4 py-3 rounded-full text-slate-800"
+                className="flex-1 px-4 py-3 rounded-full text-slate-800 bg-white focus:outline-none focus:ring-2 focus:ring-red-500"
               />
               <button
                 type="submit"
