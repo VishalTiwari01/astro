@@ -126,15 +126,15 @@ const scientificEvidences = [
 
 const faqs = [
   {
-    q: "How to start with Krishna Coming GarbhSanskar?",
-    a: "To start using Krishna Coming Garbhsanskar, you need to simply download 'Krishna Coming' mobile application on your android device from the playstore. After installing the application just enter your basic details on the app for the free trial. After the free demo, to access full content you can select a premium plan to continue using it as per your pregnancy stage.",
+    q: "How to start with Astro Baby GarbhSanskar?",
+    a: "To start using Astro Baby Garbhsanskar, you need to simply download 'Astro Baby' mobile application on your android device from the playstore. After installing the application just enter your basic details on the app for the free trial. After the free demo, to access full content you can select a premium plan to continue using it as per your pregnancy stage.",
   },
   {
-    q: "Can I use Krishna Coming on my laptop or desktop computer?",
-    a: "No, 'Krishna Coming Garbhsanskar' is a mobile application only service. You can access and use Krishna Coming on your Android & Apple Mobile and tablet devices.",
+    q: "Can I use Astro Baby on my laptop or desktop computer?",
+    a: "No, 'Astro Baby Garbhsanskar' is a mobile application only service. You can access and use Astro Baby on your Android & Apple Mobile and tablet devices.",
   },
   {
-    q: "I am in the 5th month of my pregnancy; am I too late to start GarbhSanskar with Krishna Coming?",
+    q: "I am in the 5th month of my pregnancy; am I too late to start GarbhSanskar with Astro Baby?",
     a: "Whether you are in your 1st month of pregnancy or in 9th month of pregnancy, it is never too late to start the process of garbhsanskar. Krishna Coming is prepared in such a scientific way that even late joiners can benefit from this curriculum. Moreover, you can always subscribe to watch episodes of previous months of pregnancy that you've missed.",
   },
 ];
@@ -161,7 +161,7 @@ export default function Home() {
             ))}
           </div>
           <div className="flex items-center gap-2">
-            <span>info@krishnacoming.com</span>
+            <span>info@astrobaby.com</span>
             <img src={`${BASE}/assets/img/icons/mail.svg`} alt="mail" className="w-4 h-4 invert" />
           </div>
         </div>
@@ -319,10 +319,10 @@ export default function Home() {
             </div>
             <div>
               <h3 className="text-2xl font-semibold text-[#1a3a6c] mb-4">
-                What is Krishna Coming?
+                What is Astro Baby?
               </h3>
               <p className="text-slate-700 leading-relaxed">
-                Krishna Coming Garbh Sanskar App is a result of years of research on Garbh
+                Astro Baby Garbh Sanskar App is a result of years of research on Garbh
                 Sanskar. It brings together modern science and ancient Indian wisdom to make
                 pregnancy a positive, happy and healthy experience.
               </p>
@@ -423,7 +423,7 @@ export default function Home() {
                 Appreciated by the Dignitaries
               </h3>
               <p className="text-slate-700 leading-relaxed">
-                An initiative to change the entire generation - 'Krishna Coming Garbh Sanskar' has
+                An initiative to change the entire generation - 'Astro Baby Garbh Sanskar' has
                 been appreciated by numerous dignitaries of National Stature. The team has been
                 appreciated by the Hon. President of India, Hon. Prime Minister of India, Lok Sabha
                 Speaker, Cabinet Minister, State Chief Ministers, and many others.
@@ -602,7 +602,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-[#0f2547] text-white/80 py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <div>© {new Date().getFullYear()} Krishna Coming Garbh Sanskar. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Astro Baby Garbh Sanskar. All rights reserved.</div>
           <div className="flex gap-3">
             {["facebook", "insta", "youtube", "in", "pinterest"].map((s) => (
               <a

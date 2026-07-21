@@ -88,7 +88,7 @@ export default function BlogDetailPage() {
             </h2>
             <p>
               Every moment of pregnancy is an opportunity to shape the future of your child. With
-              the guidance of Krishna Coming Garbh Sanskar, thousands of mothers have experienced a
+              the guidance of Astro Baby Garbh Sanskar, thousands of mothers have experienced a
               joyful, mindful and spiritually enriched pregnancy journey.
             </p>
           </div>

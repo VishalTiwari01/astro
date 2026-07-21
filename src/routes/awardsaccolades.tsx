@@ -77,7 +77,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
             ))}
           </div>
           <div className="flex items-center gap-2">
-            <span>info@krishnacoming.com</span>
+            <span>info@Astrobaby.com</span>
             <img src={`${BASE}/assets/img/icons/mail.svg`} alt="mail" className="w-4 h-4 invert" />
           </div>
         </div>
@@ -87,7 +87,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
         <div className="hidden md:grid max-w-7xl mx-auto px-4 py-4 grid-cols-3 items-center gap-4">
           <div className="md:hidden flex justify-center col-span-2 order-1">
             <Link to="/">
-              <img src={"/images/logo.png"} alt="Krishna Coming" className="h-20" />
+              <img src={"/images/logo.png"} alt="Astro Baby" className="h-20" />
             </Link>
           </div>
           <div className="flex items-center gap-2 md:gap-3 order-2 md:order-1">
@@ -108,7 +108,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
           </div>
           <div className="hidden md:flex justify-center order-none md:order-2">
             <Link to="/">
-              <img src={"/images/logo.png"} alt="Krishna Coming" className="h-24" />
+              <img src={"/images/logo.png"} alt="Astro Baby" className="h-24" />
             </Link>
           </div>
           <div className="flex flex-col items-end order-3">
@@ -138,7 +138,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-center">
             <div className="md:hidden flex items-center justify-between py-3 w-full">
               <Link to="/">
-                <img src={"/images/logo.png"} alt="Krishna Coming" className="h-12" />
+                <img src={"/images/logo.png"} alt="Astro Baby" className="h-12" />
               </Link>
               <button
                 className="flex items-center gap-2"
@@ -179,7 +179,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
 
       <footer className="bg-[#0f2547] text-white/80 py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <div>© {new Date().getFullYear()} Krishna Coming Garbh Sanskar. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Astro Baby Garbh Sanskar. All rights reserved.</div>
           <div className="flex gap-3">
             {["facebook", "insta", "youtube", "in", "pinterest"].map((s) => (
               <a
@@ -215,7 +215,7 @@ export default function AwardsPage() {
             Garbh Sanskar Program — <span className="text-red-600">Awards & Accolades</span>
           </h1>
           <p className="mt-4 text-slate-600 max-w-3xl mx-auto">
-            Krishna Coming Garbh Sanskar has been honoured by the highest offices, ministries and
+            Astro Baby Garbh Sanskar has been honoured by the highest offices, ministries and
             respected institutions across India for its contribution towards a healthier, wiser and
             more sanskarit generation.
           </p>
@@ -250,7 +250,7 @@ export default function AwardsPage() {
           <h2 className="text-2xl md:text-3xl font-semibold mb-3">
             Join a movement recognised across the nation
           </h2>
-          <p className="text-white/80 mb-6">Download the Krishna Coming Garbh Sanskar app today.</p>
+          <p className="text-white/80 mb-6">Download the Astro Baby Garbh Sanskar app today.</p>
           <div className="flex flex-wrap justify-center gap-3">
             <a href="http://bit.ly/KCGSapp">
               <img src={`${BASE}/assets/img/playstore.jpg`} alt="playstore" className="h-12" />

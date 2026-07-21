@@ -38,7 +38,7 @@ export function Layout({
             ))}
           </div>
           <div className="flex items-center gap-2">
-            <span>info@krishnacoming.com</span>
+            <span>info@astrobaby.com</span>
             <img src={`${BASE}/assets/img/icons/mail.svg`} alt="mail" className="w-4 h-4 invert" />
           </div>
         </div>
@@ -140,7 +140,7 @@ export function Layout({
 
       <footer className="bg-[#0f2547] text-white/80 py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <div>© {new Date().getFullYear()} Krishna Coming Garbh Sanskar. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Astro Baby Garbh Sanskar. All rights reserved.</div>
           <div className="flex gap-3">
             {["facebook", "insta", "youtube", "in", "pinterest"].map((s) => (
               <a
@@ -177,7 +177,7 @@ export default function BlogPage() {
           </h1>
           <p className="mt-4 text-slate-600 max-w-3xl mx-auto">
             Insights, guidance and practical tips on Garbh Sanskar, pregnancy care, diet, yoga,
-            meditation and spirituality — curated by Krishna Coming experts.
+            meditation and spirituality — curated by Astro Baby experts.
           </p>
         </div>
       </section>

@@ -296,7 +296,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
             ))}
           </div>
           <div className="flex items-center gap-2">
-            <span>info@krishnacoming.com</span>
+            <span>info@astrobaby.com</span>
             <img src={`${BASE}/assets/img/icons/mail.svg`} alt="mail" className="w-4 h-4 invert" />
           </div>
         </div>
@@ -398,7 +398,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
 
       <footer className="bg-[#0f2547] text-white/80 py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <div>© {new Date().getFullYear()} Krishna Coming Garbh Sanskar. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Astro Baby Garbh Sanskar. All rights reserved.</div>
           <div className="flex gap-3">
             {["facebook", "insta", "youtube", "in", "pinterest"].map((s) => (
               <a
@@ -470,7 +470,7 @@ export default function TestimonialPage() {
         <div className="max-w-6xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-4xl font-semibold text-[#1a3a6c]">User Stories</h2>
           <p className="mt-2 text-slate-600">
-            Watch below the experiences of Krishna Coming Garbh Sanskar users
+            Watch below the experiences of Astro Baby Garbh Sanskar users
           </p>
         </div>
       </section>
@@ -501,7 +501,7 @@ export default function TestimonialPage() {
               </div>
               <div className="p-4 text-center">
                 <h3 className="font-semibold text-[#1a3a6c] text-base">
-                  Krishna Coming Garbh Sanskar App Review
+                  Astro Baby Garbh Sanskar App Review
                 </h3>
                 <p className="mt-1 text-slate-700 text-sm font-medium">{s.name}</p>
                 <p className="text-slate-500 text-xs">{s.city}</p>
@@ -543,7 +543,7 @@ export default function TestimonialPage() {
       <section className="py-14 bg-[#1a3a6c] text-white">
         <div className="max-w-5xl mx-auto px-4 text-center">
           <h2 className="text-2xl md:text-3xl font-semibold mb-3">
-            Share your Krishna Coming journey
+            Share your Astro Baby journey
           </h2>
           <p className="text-white/80 mb-6">Download the app and start your Garbh Sanskar today.</p>
           <div className="flex flex-wrap justify-center gap-3">

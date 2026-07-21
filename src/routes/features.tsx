@@ -22,8 +22,8 @@ const features: Feature[] = [
     img: "feature_mo_sanklap.webp",
     tagline: "Live Sankalp Poojan before starting Garbh Sanskar",
     body: [
-      "In Vaidic Indian tradition, every auspicious work starts with Sankalp poojan. At Krishna Coming, Vaidic Sankalp poojan is done live under the guidance of our Vaidic Brahmin. Through Sankalp Poojan, you pray to God, the Navagrahas and the Nakshatras to give strength and determination to carry this pregnancy for the whole term and to bless you and your child with the divine qualities of wisdom, health and positivity.",
-      "Within 24 hours of subscribing to Krishna Coming Garbh Sanskar, our representative will get in touch with you to inform you about the samagri required for poojan. Soon after that, we'll schedule a one-to-one live Sankalp Poojan for you as per your convenience on a pre-decided Sankalp muhurat. Both the husband and the wife must be present in this Sankalp poojan.",
+      "In Vaidic Indian tradition, every auspicious work starts with Sankalp poojan. At Astro Baby, Vaidic Sankalp poojan is done live under the guidance of our Vaidic Brahmin. Through Sankalp Poojan, you pray to God, the Navagrahas and the Nakshatras to give strength and determination to carry this pregnancy for the whole term and to bless you and your child with the divine qualities of wisdom, health and positivity.",
+      "Within 24 hours of subscribing to Astro Baby Garbh Sanskar, our representative will get in touch with you to inform you about the samagri required for poojan. Soon after that, we'll schedule a one-to-one live Sankalp Poojan for you as per your convenience on a pre-decided Sankalp muhurat. Both the husband and the wife must be present in this Sankalp poojan.",
     ],
   },
   {
@@ -41,7 +41,7 @@ const features: Feature[] = [
     tagline: "An important sanskar performed during the seventh/eighth month of pregnancy",
     body: [
       "Simantonnayana Sanskar is the third sanskar of the sixteen sanskars according to vaidic tradition. This sanskar is performed in order to prevent miscarriage, to ensure the safety of the baby in the womb, and to develop the baby's fortune.",
-      "The purpose of this sanskar is to mentally prepare the pregnant lady for delivery by guiding her with positive thoughts. This sanskar is performed in a live session under the guidance of a vaidic brahman group at Krishna Coming. It must be done during the eighth month of pregnancy.",
+      "The purpose of this sanskar is to mentally prepare the pregnant lady for delivery by guiding her with positive thoughts. This sanskar is performed in a live session under the guidance of a vaidic brahman group at Astro Baby. It must be done during the eighth month of pregnancy.",
     ],
   },
   {
@@ -49,7 +49,7 @@ const features: Feature[] = [
     img: "features.webp",
     tagline: "Sutras to impart mann, buddhi and sanskars in your child",
     body: [
-      "During the 9 months of pregnancy, each month, there is a phased development of the various physical and mental dimensions of the baby. Krishna Coming is a pure science, which provides Garbh Sanskar Sutras, according to the present developmental stage of the fetus. These sutras turn your pregnancy into a wonderful, joyous experience and prepares you to welcome a wise, sanskari and healthy baby.",
+      "During the 9 months of pregnancy, each month, there is a phased development of the various physical and mental dimensions of the baby. Astro Baby is a pure science, which provides Garbh Sanskar Sutras, according to the present developmental stage of the fetus. These sutras turn your pregnancy into a wonderful, joyous experience and prepares you to welcome a wise, sanskari and healthy baby.",
     ],
   },
   {
@@ -57,7 +57,7 @@ const features: Feature[] = [
     img: "features3.webp",
     tagline: "Miraculous vaidic chants for the promotion of special qualities in the child",
     body: [
-      "The Vedas mention special mantras for pregnancy, which have miraculous effects on the fetus. Originated from Rigveda, Yajurveda, Samaveda and Atharvaveda these mantras are available in the Krishna Coming App.",
+      "The Vedas mention special mantras for pregnancy, which have miraculous effects on the fetus. Originated from Rigveda, Yajurveda, Samaveda and Atharvaveda these mantras are available in the Astro Baby App.",
       "They are chanted by the world's most knowledgeable Vaidic brahmins, following the stern and uncompromising rules of Varn, Swar, Matra, Balam, Saama and Santana. These Vaidic Garbh Sanskar Mantras have been found to have a divine and positive effect on both the child and the mother.",
     ],
   },
@@ -67,7 +67,7 @@ const features: Feature[] = [
     tagline: "Music based on specific ragas for the ideal development of a child",
     body: [
       "Indian ragas and Garbh Sanskar music have a positive impact on our mood, mind and body. This fact is now recognized by the world's top scientists and universities as well. Children who have been exposed to traditional ragas before birth develop many qualities such as intelligence, health and calmness in nature.",
-      "The Garbh Sanskar music in Krishna Coming App has been developed on the basis of Indian ragas, which not only enhance the virtues in the fetus, but also keep the pregnant woman calm, relaxed and positive.",
+      "The Garbh Sanskar music in Astro Baby App has been developed on the basis of Indian ragas, which not only enhance the virtues in the fetus, but also keep the pregnant woman calm, relaxed and positive.",
     ],
   },
   {
@@ -93,7 +93,7 @@ const features: Feature[] = [
     img: "features4.webp",
     tagline: "Unique Isht Mantra calculated according to the parents' date and time of birth",
     body: [
-      "Krishna Coming App calculates a raashi-yugm based on the time and date of birth of the mother and father-to-be. This calculation is based on astrology and there is a unique Isht mantra for each parent-couple.",
+      "Astro Baby App calculates a raashi-yugm based on the time and date of birth of the mother and father-to-be. This calculation is based on astrology and there is a unique Isht mantra for each parent-couple.",
       "The pregnant woman has to chant this personal Isht Mantra 108 times a day during her pregnancy. Isht Dev especially blesses children born by Isht Mantra's chanting. If due to some reason, a pregnant woman is not able to chant the Isht Mantra 108 times, it must at least be chanted either 51 or 11 times a day.",
     ],
   },
@@ -112,7 +112,7 @@ const features: Feature[] = [
     tagline: "Your passage to inner peace",
     body: [
       "During pregnancy you are continuously dealing with many things that include ongoing physical changes, concerns for your baby, the nervousness of delivery, and unwarranted do's and don'ts from friends and family. So physical and mental fatigue is imminent.",
-      "This is exactly why team Krishna Coming created these guided yognidra sessions. A 20 - 25 minute session helps you find a more calm and refreshed version of yourself.",
+      "This is exactly why team Astro Baby created these guided yognidra sessions. A 20 - 25 minute session helps you find a more calm and refreshed version of yourself.",
     ],
   },
   {
@@ -129,7 +129,7 @@ const features: Feature[] = [
     img: "feature_mo_santanotpatti_havan.webp",
     tagline: "Monthly vaidic havan for the safety and health of your child",
     body: [
-      "Once a month during pregnancy, the pregnant woman and her husband and, if possible, all the family members perform a live Supraj Santaanotpatti Havan, under the guidance of the Vaidic Brahmin at Krishna Coming.",
+      "Once a month during pregnancy, the pregnant woman and her husband and, if possible, all the family members perform a live Supraj Santaanotpatti Havan, under the guidance of the Vaidic Brahmin at Astro Baby.",
       "The main purpose of the Havan is to pray to the deities and the Navagrahas for the protection of the child and the enhancement of virtues. The date, time and samagri required for the Havan are shared with the subscribers in advance.",
     ],
   },
@@ -146,7 +146,7 @@ const features: Feature[] = [
     img: "monthly_planner.webp",
     tagline: "Planner for all monthly garbh sanskar activities",
     body: [
-      "The monthly activity planner provided in Krishna Coming Garbh Sanskar app gives you the complete information, in advance, about the various activities lined up for the month. It gives you details about the date, time, and the expert associated with the respective activities/sessions.",
+      "The monthly activity planner provided in Astro Baby Garbh Sanskar app gives you the complete information, in advance, about the various activities lined up for the month. It gives you details about the date, time, and the expert associated with the respective activities/sessions.",
     ],
   },
   {
@@ -176,7 +176,7 @@ const features: Feature[] = [
       "Hundreds of Pregnant ladies across the world participate daily at the same time for 'Garbh-raksha' prarthna Live.",
     body: [
       "Sandhya Prarthna is a session of uninterrupted tranquility for pregnant women. Protective Ramraksha Stotra, effective Mantras, powerful Santan Gopal Mantra, and sacred Garbh Kalyan Prarthna will relieve pregnant women from daily life's hassles.",
-      "Regular chanting of these prayers and mantras with Krishna Coming Garbh Sanskar's mentor protects the mother's womb from any kind of mishaps and ensures the baby's better future.",
+      "Regular chanting of these prayers and mantras with Astro Baby Garbh Sanskar's mentor protects the mother's womb from any kind of mishaps and ensures the baby's better future.",
     ],
   },
   {
@@ -186,7 +186,7 @@ const features: Feature[] = [
       "Safe Yogasans for pregnancy demonstrated by Yogasan experts as per your pregnancy month Live.",
     body: [
       "Yoga during pregnancy is an ideal way to stay in shape, tone the muscles, and improve blood circulation– all with negligible impact on your joints. Prenatal Yoga also reduces stress, improves flexibility, lowers back pain, and prepares your body for labor and delivery.",
-      "With Krishna Coming Garbh Sanskar's expert Yoga instructors, it's extremely easy to perform quick and effective Yoga exercises from the comfort of your home.",
+      "With Astro Baby Garbh Sanskar's expert Yoga instructors, it's extremely easy to perform quick and effective Yoga exercises from the comfort of your home.",
     ],
   },
   {
@@ -204,7 +204,7 @@ const features: Feature[] = [
     img: "feature_1675749179.png",
     tagline: "Live mentoring sessions to guide you through life problems keeping you up at night.",
     body: [
-      "Pregnancy is one of the most rewarding experiences a woman can have. But, at times you may have mixed feelings, insecurities, self-doubt, overwhelming feelings, anxiety, etc. Combat these negative feelings easily with Krishna Coming Garbh Sanskar's mentoring session.",
+      "Pregnancy is one of the most rewarding experiences a woman can have. But, at times you may have mixed feelings, insecurities, self-doubt, overwhelming feelings, anxiety, etc. Combat these negative feelings easily with Astro Baby Garbh Sanskar's mentoring session.",
     ],
   },
   {
@@ -231,7 +231,7 @@ const features: Feature[] = [
       "Answers to all of your medical issues or concerns from the top gynecologists of the nation in a Live session.",
     body: [
       "Pregnant women often lack access to essential medical advice since they can't afford to visit a gynecologist every time they have a question. Get regular answers to all of your pregnancy-related questions through gynecologist sessions.",
-      "Krishna Coming Garbh Sanskar's experienced gynecologist is available to answer any questions you may have.",
+      "Astro Baby Garbh Sanskar's experienced gynecologist is available to answer any questions you may have.",
     ],
   },
 ];

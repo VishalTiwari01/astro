@@ -24,11 +24,11 @@ const members: Member[] = [
   {
     img: "award_1661513636.jpg",
     name: "Prof. Vipin Joshi",
-    title: "Educationist & Entrepreneur — Founder Director, Krishnacoming.com",
+    title: "Educationist & Entrepreneur — Founder Director, AstroBaby.com",
     bio: [
       "A man of many talents, Prof. Vipin Joshi is a teacher, an entrepreneur and a visionary. He established CatalyseR Eduventures (i) Pvt. Ltd to train students for competitive entrance examinations and has produced 5 IIT JEE Zone toppers in 4 consecutive years, a national record. He has also produced 750+ NTSE scholars.",
       "He received numerous awards from dignitaries for his contribution in the field of education, including Shri Satyapal Singh, Shri S. P. Singh Baghel, Shri Shivraj Singh Chouhan and Shri Deepak Joshi.",
-      "Along with an expert team of gynaecologists, scientists and IITians, he researched and made it a mission to revive the Ancient Indian Garbh Sanskar Process — today known as 'Krishna Coming Garbh Sanskar'.",
+      "Along with an expert team of gynaecologists, scientists and IITians, he researched and made it a mission to revive the Ancient Indian Garbh Sanskar Process — today known as 'Astro Baby Garbh Sanskar'.",
     ],
   },
   {
@@ -49,7 +49,7 @@ const members: Member[] = [
     bio: [
       "Born in the glorious lineage of Adhya Shankaracharya himself, Acharya Shivakaran Thottam Namboothiri has devoted his entire life to the service of the Vedas.",
       "He belongs to one of the two rarest Namboothiri families of Kerala who have conserved the Shastriya tradition of chanting Samaveda.",
-      "A living encyclopaedia of Ayurveda, he has amazed Germany, America and many other nations with the miraculous effects of Vaidic Hymns. He leads the Samvaidic chants in Krishna Coming.",
+      "A living encyclopaedia of Ayurveda, he has amazed Germany, America and many other nations with the miraculous effects of Vaidic Hymns. He leads the Samvaidic chants in Astro Baby.",
     ],
   },
   {
@@ -59,7 +59,7 @@ const members: Member[] = [
     bio: [
       "One of the most honored and seniormost authorities on Rigveda in India.",
       "From an early age he excelled in academics, achieved gold medals at university level and served as a Rank 1 officer in the Statistical Services of India for many years, before voluntarily retiring to dedicate his life to the Vedas.",
-      "He leads the Rigvaidic chants in Krishna Coming.",
+      "He leads the Rigvaidic chants in Astro Baby.",
     ],
   },
   {
@@ -78,7 +78,7 @@ const members: Member[] = [
     title: "B.Tech. IIT Mumbai",
     bio: [
       "An alumnus of the very first batch of IIT Mumbai in 1980, a successful entrepreneur, IIT trainer and counselor, and a member of various revered academic committees.",
-      "His technological expertise powers the Isht Mantra feature — astrological calculations of the rashis of pregnant women and their husbands — and the software algorithms behind the Krishna Coming application.",
+      "His technological expertise powers the Isht Mantra feature — astrological calculations of the rashis of pregnant women and their husbands — and the software algorithms behind the Astro Baby application.",
     ],
   },
   {
@@ -294,7 +294,7 @@ function Layout({ children, activeLabel }: { children: React.ReactNode; activeLa
 
       <footer className="bg-[#0f2547] text-white/80 py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <div>© {new Date().getFullYear()} Krishna Coming Garbh Sanskar. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Astro Baby Garbh Sanskar. All rights reserved.</div>
           <div className="flex gap-3">
             {["facebook", "insta", "youtube", "in", "pinterest"].map((s) => (
               <a
@@ -375,7 +375,7 @@ export default function TeamPage() {
           <h2 className="text-2xl md:text-3xl font-semibold mb-3">
             Experience the wisdom of our experts
           </h2>
-          <p className="text-white/80 mb-6">Download the Krishna Coming Garbh Sanskar app today.</p>
+          <p className="text-white/80 mb-6">Download the Astro Baby Garbh Sanskar app today.</p>
           <div className="flex flex-wrap justify-center gap-3">
             <a href="http://bit.ly/KCGSapp">
               <img src={`${BASE}/assets/img/playstore.jpg`} alt="playstore" className="h-12" />

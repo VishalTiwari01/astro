@@ -63,7 +63,7 @@ const milestones = [
   {
     year: "2018",
     title: "The Vision",
-    text: "Krishna Coming was envisioned as a bridge between ancient Garbh Sanskar wisdom and modern-day pregnant couples.",
+    text: "Astro Baby was envisioned as a bridge between ancient Garbh Sanskar wisdom and modern-day pregnant couples.",
   },
   {
     year: "2019",
@@ -73,7 +73,7 @@ const milestones = [
   {
     year: "2020",
     title: "App Launch",
-    text: "The Krishna Coming Garbh Sanskar mobile application launched on Android & iOS platforms.",
+    text: "The Astro Baby Garbh Sanskar mobile application launched on Android & iOS platforms.",
   },
   {
     year: "2022",
@@ -108,7 +108,7 @@ export default function AboutPage() {
             ))}
           </div>
           <div className="flex items-center gap-2">
-            <span>info@krishnacoming.com</span>
+            <span>info@Astrobaby.com</span>
             <img src={`${BASE}/assets/img/icons/mail.svg`} alt="mail" className="w-4 h-4 invert" />
           </div>
         </div>
@@ -128,7 +128,7 @@ export default function AboutPage() {
           </div>
           <div className="hidden md:flex justify-center">
             <Link to="/">
-              <img src={"/images/logo.png"} alt="Krishna Coming" className="h-24" />
+              <img src={"/images/logo.png"} alt="Astro Baby" className="h-24" />
             </Link>
           </div>
           <div className="flex flex-col items-end">
@@ -242,10 +242,10 @@ export default function AboutPage() {
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <div className="order-2 md:order-1">
             <h2 className="text-3xl md:text-4xl font-semibold text-[#1a3a6c] mb-4">
-              What is Krishna Coming?
+              What is Astro Baby?
             </h2>
             <p className="text-slate-700 leading-relaxed mb-4">
-              <strong>Krishna Coming Garbh Sanskar</strong> is India's Premier Garbh Sanskar mobile
+              <strong>Astro Baby Garbh Sanskar</strong> is India's Premier Garbh Sanskar mobile
               application - a result of years of research on Garbh Sanskar by a team of IITians,
               doctors, scientists, Vedic scholars & Garbh Sanskar experts.
             </p>
@@ -255,13 +255,13 @@ export default function AboutPage() {
               in the mother's womb with the best of values, health & virtues.
             </p>
             <p className="text-slate-700 leading-relaxed">
-              Available in English & हिन्दी, on Android & iOS - Krishna Coming is being used by
+              Available in English & हिन्दी, on Android & iOS - Astro Baby is being used by
               thousands of pregnant couples across 62+ countries.
             </p>
           </div>
           <img
             src={`${BASE}/assets/img/kc-features.jpg`}
-            alt="Krishna Coming App"
+            alt="Astro Baby App"
             className="order-1 md:order-2 w-full max-w-sm mx-auto rounded-xl shadow-lg"
           />
         </div>
@@ -320,7 +320,7 @@ export default function AboutPage() {
               A Team of Experts
             </h2>
             <p className="text-slate-700 leading-relaxed mb-6">
-              Krishna Coming Garbh Sanskar is created by a passionate multi-disciplinary team,
+              Astro Baby Garbh Sanskar is created by a passionate multi-disciplinary team,
               working together towards making your pregnancy a more positive, happy & healthy
               experience.
             </p>
@@ -385,7 +385,7 @@ export default function AboutPage() {
                 Appreciated by the Dignitaries
               </h3>
               <p className="text-slate-700 leading-relaxed">
-                An initiative to change the entire generation - 'Krishna Coming Garbh Sanskar' has
+                An initiative to change the entire generation - 'Astro Baby Garbh Sanskar' has
                 been appreciated by numerous dignitaries of National Stature. The team has been
                 appreciated by the Hon. President of India, Hon. Prime Minister of India, Lok Sabha
                 Speaker, Cabinet Minister, State Chief Ministers, and many others.
@@ -447,7 +447,7 @@ export default function AboutPage() {
       {/* Footer */}
       <footer className="bg-[#0f2547] text-white/80 py-8">
         <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row justify-between items-center gap-4 text-sm">
-          <div>© {new Date().getFullYear()} Krishna Coming Garbh Sanskar. All rights reserved.</div>
+          <div>© {new Date().getFullYear()} Astro Baby Garbh Sanskar. All rights reserved.</div>
           <div className="flex gap-3">
             {["facebook", "insta", "youtube", "in", "pinterest"].map((s) => (
               <a
