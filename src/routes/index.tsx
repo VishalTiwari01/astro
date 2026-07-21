@@ -144,7 +144,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white text-slate-800">
       {/* Top bar */}
-      <div className="bg-[#1a3a6c] text-white text-sm">
+      <div className="hidden md:block bg-[#1a3a6c] text-white text-sm">
         <div className="max-w-7xl mx-auto px-4 py-2 flex justify-between items-center flex-wrap gap-2">
           <div className="flex items-center gap-3">
             {["facebook", "insta", "youtube", "in", "pinterest"].map((s) => (
@@ -167,50 +167,45 @@ export default function Home() {
 
       {/* Header */}
       <header className="bg-[#eef1f5]">
-        <div className="max-w-7xl mx-auto px-4 py-4 grid grid-cols-2 md:grid-cols-3 items-center gap-4">
-          <div className="md:hidden flex justify-center col-span-2 order-1">
-            <a href="/">
-              <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-20" />
-            </a>
-          </div>
-          <div className="flex items-center gap-2 md:gap-3 order-2 md:order-1">
+        <div className="hidden md:grid max-w-7xl mx-auto px-4 py-4 grid-cols-3 items-center gap-4">
+          <div className="flex items-center gap-3">
             <img
               src={`${BASE}/assets/img/call.svg`}
               alt="call"
-              className="w-8 h-8 md:w-10 md:h-10"
+              className="w-10 h-10"
             />
             <div>
-              <div className="text-[#1a3a6c] font-semibold text-xs md:text-base">Call Us</div>
+              <div className="text-[#1a3a6c] font-semibold text-base">Call Us</div>
               <a
                 href="tel:+919109155039"
-                className="text-slate-700 text-xs md:text-sm whitespace-nowrap"
+                className="text-slate-700 text-sm whitespace-nowrap"
               >
                 +91 9109155039
               </a>
             </div>
           </div>
-          <div className="hidden md:flex justify-center order-none md:order-2">
+          <div className="flex justify-center">
             <a href="/">
               <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-24" />
             </a>
           </div>
-          <div className="flex flex-col items-end order-3">
-            <div className="text-[#1a3a6c] font-semibold text-[10px] md:text-sm mb-1 uppercase tracking-wider hidden md:block">
+          <div className="flex flex-col items-end">
+            <div className="text-[#1a3a6c] font-semibold text-sm mb-1 uppercase tracking-wider">
               Free Download
             </div>
-            <div className="flex gap-1 md:gap-2">
+            <div className="flex gap-2">
               <a href="http://bit.ly/KCGSapp">
                 <img
                   src={`${BASE}/assets/img/playstore.jpg`}
                   alt="playstore"
-                  className="h-7 md:h-10"
+                  className="h-10"
                 />
               </a>
               <a href="https://apple.co/3iEfg7K">
                 <img
                   src={`${BASE}/assets/img/appstore.jpg`}
                   alt="appstore"
-                  className="h-7 md:h-10"
+                  className="h-10"
                 />
               </a>
             </div>
@@ -219,15 +214,19 @@ export default function Home() {
 
         <nav className="bg-white border-t border-b border-slate-200">
           <div className="max-w-7xl mx-auto px-4 flex flex-col md:flex-row md:items-center md:justify-between">
-            <button
-              className="md:hidden py-3 flex items-center justify-between gap-2 w-full text-left"
-              onClick={() => setMenuOpen(!menuOpen)}
-            >
-              <span className="font-bold text-[#1a3a6c] text-base tracking-wide">MENU</span>
-              <div className="p-1.5 bg-[#f7f5f0] rounded-md border border-slate-200">
-                <img src={`${BASE}/assets/img/hamburger.svg`} alt="menu" className="w-5 h-5" />
-              </div>
-            </button>
+            <div className="md:hidden flex items-center justify-between py-3 w-full">
+              <a href="/">
+                <img src={`${BASE}/assets/img/logo.png`} alt="Krishna Coming" className="h-12" />
+              </a>
+              <button
+                className="flex items-center gap-2"
+                onClick={() => setMenuOpen(!menuOpen)}
+              >
+                <div className="p-1.5 bg-[#f7f5f0] rounded-md border border-slate-200">
+                  <img src={`${BASE}/assets/img/hamburger.svg`} alt="menu" className="w-5 h-5" />
+                </div>
+              </button>
+            </div>
             <ul
               className={`${
                 menuOpen ? "flex" : "hidden"
