@@ -1,5 +1,6 @@
 import { useState } from "react";
 import HeroSlider from "@/components/HeroSlider";
+import StoriesSlider from "@/components/StoriesSlider";
 const BASE = "https://www.krishnacoming.com";
 
 const navItems = [
@@ -402,6 +403,9 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      {/* Stories Slider */}
+      <StoriesSlider />
 
       {/* Awards */}
       <section className="py-14 bg-white">
