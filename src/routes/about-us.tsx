@@ -6,9 +6,9 @@ const BASE = "https://www.krishnacoming.com";
 const navItems = [
   { label: "Home", to: "/" },
   { label: "About Us", to: "/about-us" },
-  { label: "Courses & Features", to: "/" },
-  { label: "User Stories", to: "/" },
-  { label: "Team", to: "/" },
+  { label: "Courses & Features", to: "/features" },
+  { label: "User Stories", to: "/testimonial" },
+  { label: "Team", to: "/team" },
   { label: "Awards & Accolades", to: "/awardsaccolades" },
   { label: "Blogs", to: "/blog" },
 ];

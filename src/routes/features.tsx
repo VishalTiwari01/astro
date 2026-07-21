@@ -5,13 +5,13 @@ const BASE = "https://www.krishnacoming.com";
 const IMG = `${BASE}/template/front/krishnaAssest/img`;
 
 const navItems = [
-  { label: "Home", to: "/" as const },
-  { label: "About Us", to: "/about-us" as const },
-  { label: "Courses & Features", to: "/features" as const },
-  { label: "User Stories", to: "/" as const },
-  { label: "Team", to: "/" as const },
-  { label: "Awards & Accolades", to: "/awardsaccolades" as const },
-  { label: "Blogs", to: "/blog" as const },
+  { label: "Home", to: "/" },
+  { label: "About Us", to: "/about-us" },
+  { label: "Courses & Features", to: "/features" },
+  { label: "User Stories", to: "/testimonial" },
+  { label: "Team", to: "/team" },
+  { label: "Awards & Accolades", to: "/awardsaccolades" },
+  { label: "Blogs", to: "/blog" },
 ];
 
 type Feature = { title: string; img: string; tagline: string; body: string[] };
