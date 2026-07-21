@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState } from "react";
+import MobileFeatureSlider from "@/components/MobileFeatureSlider";
 
 const BASE = "https://www.krishnacoming.com";
 
@@ -259,11 +260,9 @@ export default function AboutPage() {
               thousands of pregnant couples across 62+ countries.
             </p>
           </div>
-          <img
-            src={`${BASE}/assets/img/kc-features.jpg`}
-            alt="Astro Baby App"
-            className="order-1 md:order-2 w-full max-w-sm mx-auto rounded-xl shadow-lg"
-          />
+          <div className="order-1 md:order-2 flex justify-center w-full">
+            <MobileFeatureSlider />
+          </div>
         </div>
       </section>
 
