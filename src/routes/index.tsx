@@ -253,7 +253,7 @@ export default function Home() {
                                   : "/"
                     }
                     className={`block px-4 py-3 rounded-full text-sm font-medium transition-colors ${
-                      i === 0 ? "bg-[#eef1f5] text-[#1a3a6c]" : "text-slate-700 hover:bg-slate-100"
+                      i === 0 ? "bg-white shadow-sm ring-1 ring-slate-200/50 text-[#1a3a6c]" : "text-slate-700 hover:bg-slate-100"
                     }`}
                   >
                     {item}

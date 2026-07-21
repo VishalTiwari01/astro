@@ -326,7 +326,7 @@ export default function FeaturesPage() {
                     <Link
                       to={item.to}
                       className={`block px-4 py-3 rounded-full text-sm font-medium transition-colors ${
-                        active ? "bg-[#eef1f5] text-[#1a3a6c]" : "text-slate-700 hover:bg-slate-100"
+                        active ? "bg-white shadow-sm ring-1 ring-slate-200/50 text-[#1a3a6c]" : "text-slate-700 hover:bg-slate-100"
                       }`}
                     >
                       {item.label}
