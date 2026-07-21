@@ -20,4 +20,25 @@ export const storiesData = [
     quote: "We feel more confident and connected as a family now.",
     videoId: "Q8V0cuHGBx4",
   },
+  {
+    name: "Mr. & Mrs. Sinha",
+    city: "Bangalore",
+    rating: 5,
+    quote: "AstroBaby brought peace and positivity into our lives.",
+    videoId: "wGaFK-N_-eo",
+  },
+  {
+    name: "Mr. & Mrs. Dubey",
+    city: "Gwalior",
+    rating: 5,
+    quote: "Highly recommended for every expecting family.",
+    videoId: "tkXuMEOJCKo",
+  },
+  {
+    name: "Mr. & Mrs. Jalan",
+    city: "Delhi",
+    rating: 5,
+    quote: "The best companion during the most beautiful phase of our lives.",
+    videoId: "6MgQ1sZ_tlI",
+  },
 ];
