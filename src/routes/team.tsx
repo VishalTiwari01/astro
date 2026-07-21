@@ -319,9 +319,9 @@ export default function TeamPage() {
       {/* Banner */}
       <section className="border-b border-slate-200/50 relative z-10">
         <img
-          src="/images/team-banner.png"
+          src={`${BASE}/assets/img/team/team-banner-en.png`}
           alt="Meet our team"
-          className="w-full h-[300px] md:h-[450px] object-cover object-bottom"
+          className="w-full"
         />
       </section>
 
