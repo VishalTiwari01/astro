@@ -212,7 +212,7 @@ export default function AboutPage() {
       <section className="py-14 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <img
-            src={`${BASE}/assets/img/team-en.jpg`}
+            src="/images/team.png"
             alt="What is Garbh Sanskar"
             className="w-full rounded-lg shadow"
           />
@@ -311,7 +311,7 @@ export default function AboutPage() {
       <section className="py-14 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <img
-            src={`${BASE}/assets/img/team-en.jpg`}
+            src="/images/team.png"
             alt="Krishna Coming Team"
             className="w-full rounded-lg shadow"
           />

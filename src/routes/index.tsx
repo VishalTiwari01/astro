@@ -341,7 +341,7 @@ export default function Home() {
       <section className="py-14 bg-white">
         <div className="max-w-7xl mx-auto px-4 grid md:grid-cols-2 gap-10 items-center">
           <img
-            src={`${BASE}/assets/img/team-en.jpg`}
+            src="/images/team.png"
             alt="garbh sanskar experts"
             className="w-full rounded-lg shadow"
           />
